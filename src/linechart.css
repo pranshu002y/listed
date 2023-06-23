@@ -1,0 +1,76 @@
+.graph {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    position: relative;
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 270px;
+    width: 100%;
+}
+.new-1{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+   
+}
+.new-1 .new ul li{
+    list-style: none;
+}
+
+.new  li{
+    list-style: none;
+    margin-left: 200px;
+}
+
+
+.line-chart {
+    width: 100%;
+    height: 132px;
+    position: relative;
+  }
+  
+   .magicpattern {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='1400'%3E%3Cpath fill='none' d='M0 0h2000v1400H0z'/%3E%3Cpath d='M0 700h0c47.888-95.382 95.777-190.764 152-150 56.223 40.764 120.782 217.675 183 272 62.218 54.325 122.095-13.936 180-70s113.838-99.933 161-81c47.162 18.933 85.553 100.667 143 73s133.95-164.736 193-170c59.05-5.264 100.645 121.276 150 145 49.355 23.724 106.468-55.37 161-40 54.532 15.37 106.483 125.202 166 170 59.517 44.798 126.6 24.561 184-20 57.4-44.561 105.114-113.446 158-139 52.886-25.554 110.943-7.777 209 10' fill='none' stroke='%235844ff' stroke-width='12' stroke-linecap='round'/%3E%3C/svg%3E");
+
+    animation: fadeAnimation 2s linear 1;
+  animation-delay: 1s;
+
+  }
+  
+ 
+  
+  .magic {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    position: absolute;
+    top: -10px;
+    overflow: hidden;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='1200'%3E%3Cpath fill='none' d='M0 0h2000v1400H0z'/%3E%3Cpath d='M0 700h0c64.03-114.116 128.059-228.231 191-186 62.941 42.231 124.795 240.81 178 254 53.205 13.19 97.76-159.007 158-196 60.24-36.993 136.161 61.218 198 142s109.594 144.135 164 120c54.406-24.135 115.465-135.759 182-197 66.535-61.241 138.548-72.1 206-3s130.342 218.156 187 232c56.658 13.844 107.084-107.526 163-153 55.916-45.474 117.324-15.05 183-41s135.622-108.271 168-113c32.378-4.729 27.19 68.136 62 141' fill='none' stroke='%234cab3e' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E");
+    
+
+    animation: fadeAnimation 2s linear 1;
+    animation-delay: 2s;
+
+  }
+ 
+  @keyframes fadeAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
