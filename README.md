@@ -5,8 +5,8 @@
 5.when user select the dropdown in graph in changes.
 6.animation included in pie chart and the line chart.
 7.live on vercel and netlify 
-netlify : https://developedbypr.netlify.app/Dashboard
-vercel : https://developedbypr.vercel.app/Dashboard
+netlify :(https://developedbypr.netlify.app/)
+vercel : (https://developedbypr.vercel.app/)
 8.location and date is being fetched in schedule component.
 
 
