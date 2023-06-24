@@ -188,3 +188,47 @@ font-family: Montserrat;
   font-family: Lato;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+  .SignIn1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .RightSide {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .LeftSide {
+    min-height: auto;
+  }
+
+  .Board {
+    left: 0;
+  }
+
+  .LoginForm {
+    right: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .Board {
+    font-size: 48px;
+  }
+
+  .LoginForm {
+    width: 100%;
+    right: 0;
+  }
+
+  .input-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

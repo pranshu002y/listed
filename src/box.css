@@ -84,3 +84,21 @@
     font-size: 14px;
     font-family: Lato;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .box {
+      flex-wrap: wrap;
+    }
+  
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  

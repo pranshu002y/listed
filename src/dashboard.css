@@ -254,3 +254,121 @@ font-family: Lato;margin-left: 20px;
     animation: rotate 4s linear 1;
   }
   
+
+
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+    }
+  
+    .sidenav {
+      width: 100%;
+      min-height: auto;
+      border-radius: 0;
+    }
+  
+    .sidenav-heading span {
+      padding-top: 30px;
+      padding-left: 20px;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  
+    .list-items ul li {
+      padding-left: 20px;
+    }
+  
+    .help {
+      position: static;
+      margin-top: 20px;
+    }
+  
+    .help-2 {
+      position: static;
+      margin-top: 20px;
+    }
+  
+    .container-2 {
+      min-height: auto;
+    }
+  
+    .dashboard-heading {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .dashboard-space {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  
+    .search {
+      width: 100%;
+    }
+  
+    .charts {
+      height: 200px;
+    }
+  
+    .combo {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+  
+    .products,
+    .schedule {
+      width: 100%;
+      min-height: 200px;
+    }
+  
+    .head-2,
+    .select,
+    .seel {
+      margin-left: 0;
+      margin-top: 0;
+      margin-right: 0;
+    }
+  
+    .chart-box {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .chart-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .dots {
+      margin-top: 10px;
+    }
+  
+    .dots span,
+    .dots span h4 {
+      margin-left: 0;
+    }
+  
+    .sch {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  
+    .event-1,
+    .event-2 {
+      padding: 0 10px;
+      margin-bottom: 10px;
+    }
+  
+    .slogan-head,
+    .event-date,
+    .event-time {
+      font-size: 12px;
+    }
+  }
+  
