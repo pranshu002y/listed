@@ -7,11 +7,11 @@ import Box from "./Box";
 import Products from "./Products";
 import Combo from "./Combo";
 
-import { useNavigate } from "react-router";
+// import { useNavigate } from "react-router";
 
 
 const Dashboard = () => {
-  const navigate=useNavigate()
+  // const navigate=useNavigate()
   return (
     <div className="container">
       

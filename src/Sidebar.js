@@ -1,6 +1,6 @@
 import React from "react";
 import { auth } from "./fb";
-import { getAuth, signOut } from "firebase/auth";
+import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 const Sidebar = ()=>{
     const navigate = useNavigate();
