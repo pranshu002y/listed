@@ -2,20 +2,32 @@ import React from "react";
 import "./signin.css";
 import apple from "../src/assets/apple.svg";
 import google from "../src/assets/google-icon.svg";
+import { auth } from "./fb";
+import "firebase/compat/auth";
+import {signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+
+
 import { useNavigate } from "react-router-dom";
 const Signin = () => {
   const navigate = useNavigate();
+  const handleSignin = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      await signInWithPopup(auth, provider);
+      navigate("/Dashboard");
+    } catch (error) {
+      console.log("Error signing in with Google:", error);
+    }
+  };
+  
   const handleSignIn = () => {
-    // Get the input values
     
     const email = document.getElementById("emailInput").value;
     const password = document.getElementById("passwordInput").value;
 
-    // Store the values in local storage
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
 
-    // Perform any necessary actions after storing the data
     console.log("Data stored in local storage:", email, password);
     navigate("/Dashboard");
   };
@@ -34,7 +46,7 @@ const Signin = () => {
           </div>
 
           <div className="google">
-            <button>
+            <button onClick={handleSignin}>
               <img src={google} alt="Google Logo" />
               <span>Sign in with Google</span>
             </button>

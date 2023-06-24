@@ -1,5 +1,8 @@
 import React from "react";
 import ss from "../src/assets/ss.png";
+import green from "../src/assets/green.svg";
+import yellow  from "../src/assets/yellow.svg";
+import red  from "../src/assets/red.svg";
 const Products =()=>{
     return(
         <div className="products">
@@ -21,16 +24,16 @@ const Products =()=>{
 
               <div className="dots">
                 <span>
-                  Basic Tees<h4>55%</h4>
+                <img  src={green} /> Basic Tees<h4>55%</h4>
                 </span>
 
                 <span>
-                  Custom Short Pants <h4>33%</h4>
+                <img  src={yellow} /> Custom Short Pants <h4>33%</h4>
                 </span>
 
                 <span>
                   {" "}
-                  Super Hoodies<h4>14%</h4>
+                  <img  src={red} />  Super Hoodies<h4>14%</h4>
                 </span>
               </div>
             </div>
