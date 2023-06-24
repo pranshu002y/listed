@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard";
 import Combo from "./Combo";
 import Box from "./Box";
 import Sidebar from "./Sidebar";
+import Linechart from "./Linechart";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route  path="/dashboard" element={ <div style={{ display: "flex" }}><Sidebar /> <Dashboard /> </div>  }  />
         <Route path="/combo"  element={ <div style={{ display: "flex" }}> <Sidebar /> <Combo /> </div>  }  />
         <Route path="/box" element={<div style={{ display: "flex" }}> <Sidebar /> <Box /> </div>} />
+        <Route path="/user" element={<div style={{ display: "flex" }}> <Sidebar /> <Linechart /> </div>} />
         <Route path="/setting" element={<Signin />} />
       </Routes>
     </BrowserRouter>

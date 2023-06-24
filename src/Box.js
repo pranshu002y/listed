@@ -21,15 +21,12 @@ const   Box = ()=>{
           <span className="img-likes">
             <img src={v1} />
           </span>
-          {/* { products && products.map((e)=>{
-            return( */}
+          
           <div className="likes">
-            <span className="likes-1">likes</span>
+            <span className="likes-1">Total Revenues</span>
             <span className="likes-2">{ products && products[0].likes}</span>
           </div>
-            {/* )
-          })} */}
-          
+            
         </div>
 
         <div className="box-2">

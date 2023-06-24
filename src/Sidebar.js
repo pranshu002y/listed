@@ -22,7 +22,7 @@ const Sidebar = ()=>{
             <li onClick={() =>(navigate("/dashboard"))} >Dashboard</li>
             <li onClick={() =>(navigate("/box"))}>Transactions</li>
             <li onClick={() =>(navigate("/combo"))}>Schedules</li>
-            <li onClick={() =>(navigate("/dashboard"))}>Users</li>
+            <li onClick={() =>(navigate("/user"))}>Users</li>
             <li onClick={() => {handleLogout();
 }}>
   Logout

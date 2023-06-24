@@ -1,6 +1,6 @@
 .graph {
     width: 100%;
-    height: 100vh;
+    min-height: 300px;
     margin-top: 40px;
     position: relative;
 }
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 270px;
+    bottom: 10px;
     width: 100%;
 }
 .new-1{
@@ -22,6 +22,9 @@
 .new-1  ul li{
     list-style: none;
 }
+.new-1 ul{
+  margin-left: -25px;
+}
 
 .new  li{
     list-style: none;
@@ -32,6 +35,7 @@
 .line-chart {
     width: 100%;
     height: 132px;
+    
     position: relative;
   }
   
@@ -143,7 +147,7 @@
       background-size: cover;
       background-position: center center;
       background-repeat: repeat;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 3000 1700%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 962.495c133.4-100.433 400.2-520.53 667-502.165 266.8 18.366 400.2 642.927 667 593.992 266.8-48.935 533.6-670.933 667-838.667%22 fill=%22%238e53d21a%22%2F%3E%3Cpath d=%22M0 962.495c133.4-100.433 400.2-520.53 667-502.165 266.8 18.366 400.2 642.927 667 593.992 266.8-48.935 533.6-670.933 667-838.667%22 fill=%22none%22 stroke=%22%238e53d2%22 stroke-width=%2210%22%2F%3E%3C%2Fsvg%3E");
+    background-image: url("data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 3000 1700%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath  fill=%22%238e53d21a%22%2F%3E%3Cpath d=%22M0 962.495c133.4-100.433 400.2-520.53 667-502.165 266.8 18.366 400.2 642.927 667 593.992 266.8-48.935 533.6-670.933 667-838.667%22 fill=%22none%22 stroke=%22%238e53d2%22 stroke-width=%2210%22%2F%3E%3C%2Fsvg%3E");
     animation: fadeAnimation 2s linear 1;
       animation-delay: 2s;
   }
